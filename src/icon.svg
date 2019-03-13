@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-healthz);
+      }
+
+      .cls-2 {
+        fill: #990080;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-healthz">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="healthz" class="cls-1">
+    <rect class="cls-3" width="100" height="100"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="50" cy="50" r="50"/>
+    <path id="Pfad_17" data-name="Pfad 17" class="cls-3" d="M73.125-26.25H56.25a3.752,3.752,0,0,0-3.355,2.073l-3.11,6.221L41.119-49.737A3.74,3.74,0,0,0,37.4-52.5a3.751,3.751,0,0,0-3.566,2.963l-8.1,37.814-3.374-11.81A3.75,3.75,0,0,0,18.75-26.25H1.875A1.875,1.875,0,0,0,0-24.375v3.75A1.875,1.875,0,0,0,1.875-18.75H15.921L22.645,4.78a3.749,3.749,0,0,0,3.6,2.719c.042,0,.085,0,.128,0a3.753,3.753,0,0,0,3.541-2.962l8.02-37.43L45.132-6.514A4.035,4.035,0,0,0,48.381-3.77,3.78,3.78,0,0,0,52.1-5.824L58.568-18.75H73.125A1.875,1.875,0,0,0,75-20.625v-3.75A1.875,1.875,0,0,0,73.125-26.25Z" transform="translate(13 72.5)"/>
+  </g>
+</svg>

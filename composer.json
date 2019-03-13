@@ -1,14 +1,13 @@
 {
     "name": "codemonauts/craft-healthz",
-    "description": "Craft 3 module to answer healthz checks.",
+    "description": "Module to answer healthz checks.",
     "version": "1.0.0",
-    "type": "craft-plugin",
     "minimum-stability": "dev",
     "keywords": [
       "craft",
       "cms",
       "craftcms",
-      "craft-plugin"
+      "craft-module"
     ],
     "autoload": {
       "psr-4": {
@@ -27,14 +26,5 @@
     "support": {
         "docs": "https://github.com/codemonauts/craft-healthz/blob/master/README.md",
         "issues": "https://github.com/codemonauts/craft-healthz/issues"
-    },
-    "extra": {
-      "handle": "healthz",
-      "name": "Healthz",
-      "developer": "codemonauts",
-      "developerUrl": "https://codemonauts.com",
-      "hasCpSection": false,
-      "hasSettings": false,
-      "class": "codemonauts\\healthz\\Module"
     }
-  }
+}

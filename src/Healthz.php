@@ -5,9 +5,21 @@ namespace codemonauts\healthz;
 use yii\base\BootstrapInterface;
 use yii\web\Application;
 use yii\web\Response;
+use Craft;
 
-class Module extends \yii\base\Module implements BootstrapInterface
+class Healthz extends \yii\base\Module implements BootstrapInterface
 {
+    /**
+     * @inheritdoc
+     */
+    public function __construct($id, $parent = null, array $config = [])
+    {
+        Craft::setAlias('@modules/healthz', $this->getBasePath());
+        $this->controllerNamespace = 'modules\healthz\controllers';
+
+        parent::__construct($id, $parent, $config);
+    }
+
     /**
      * @inheritDoc
      */
